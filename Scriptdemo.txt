@@ -1,0 +1,111 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Lucky gaming (beta)",
+         Animation = "Youtube: Lucky gaming"
+         },
+        Key = {
+        KeySystem = true,
+        Title = "Key System",
+        Description = "key bro",
+        KeyLink = "https://direct-link.net/3072912/GEUwF6aK0Elk",
+        Keys = {"1234", "blox fruit", "New",},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Size = {40, 40},
+       Color = Color3.fromRGB(0, 255, 255),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(0, 255, 255)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "script Farm"})
+     local Tab2o = MakeTab({Name = "Kaitun fram"})
+     local Tab3o = MakeTab({Name = "PVP"})
+local Tab4o = MakeTab({Name = "redz menu"})
+local Tab5o = MakeTab({Name = "hot Script key"})
+local Tab6o = MakeTab({Name = "settings & linh tinh"})
+local Tab7o = MakeTab({Name = "NO key script"})
+local Tab8o = MakeTab({Name = "New script"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Cam hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuDepTrai-Z/Dev_Orange/refs/heads/main/OrangeHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Cam hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuDepTrai-Z/Dev_Orange/refs/heads/main/OrangeHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "blue x hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "blue x hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Redz Hub fake",
+    Callback = function()
+	 loadstring(game:HttpGet("https://luacrack.site/index.php/InfinityScript/raw/Redz999Fake/RedzHubFake.luau"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Redz Hub fake",
+    Callback = function()
+	 loadstring(game:HttpGet("https://luacrack.site/index.php/InfinityScript/raw/Redz999Fake/RedzHubFake.luau"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Gravity hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Gravity hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab8o, {
+     Name = "Andepzai hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+     Name = "sẽ cập nhật sớm",
+    Callback = function()
+	 
+  end
+  })
