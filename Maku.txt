@@ -22,6 +22,172 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=136573518692872",
+       Size = {30, 30},
+       Color = Color3.fromRGB(0, 255, 255),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(0, 255, 255)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "script Farm"})
+     local Tab2o = MakeTab({Name = "Kaitun fram"})
+     local Tab3o = MakeTab({Name = "PVP"})
+     local Tab4o = MakeTab({Name = "redz menu"})
+     local Tab5o = MakeTab({Name = "hot Script key"})
+     local Tab6o = MakeTab({Name = "settings & linh tinh"})
+     local Tab7o = MakeTab({Name = "NO key script"})
+     local Tab8o = MakeTab({Name = "New script"})
+     local Tab9o = MakeTab({Name = "Hop Boss"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Cam hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuDepTrai-Z/Dev_Orange/refs/heads/main/OrangeHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Cam hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuDepTrai-Z/Dev_Orange/refs/heads/main/OrangeHub.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "blue x hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "blue x hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Redz Hub fake",
+    Callback = function()
+	 loadstring(game:HttpGet("https://luacrack.site/index.php/InfinityScript/raw/Redz999Fake/RedzHubFake.luau"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Redz Hub fake",
+    Callback = function()
+	 loadstring(game:HttpGet("https://luacrack.site/index.php/InfinityScript/raw/Redz999Fake/RedzHubFake.luau"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Gravity hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab4o, {
+     Name = "Gravity hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab8o, {
+     Name = "Andepzai hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
+  end
+  })
+  
+  AddButton(Tab6o, {
+    Name = "Rejoin Server",
+    Callback = function()
+        game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
+    end
+})
+
+AddButton(Tab6o, {
+    Name = "Anti-Lag (Clear Texture)",
+    Callback = function()
+        for _, v in pairs(game:GetDescendants()) do
+            if v:IsA("BasePart") and not v:IsA("MeshPart") then
+                v.Material = "SmoothPlastic"
+                v.Color = Color3.fromRGB(163, 162, 165)
+            end
+        end
+    end
+})
+
+AddButton(Tab6o, {
+    Name = "Destroy UI",
+    Callback = function()
+        if game:GetService("CoreGui"):FindFirstChild("Lucky gaming (beta)") then
+            game:GetService("CoreGui"):FindFirstChild("Lucky gaming (beta)"):Destroy()
+        end
+    end
+})
+
+AddButton(Tab6o, {
+    Name = "Copy Discord Link",
+    Callback = function()
+        setclipboard("Link Discord của bạn ở đây")
+    end
+})
+  
+  AddButton(Tab1o, {
+     Name = "DỨA CAT",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/real33ms/BloxFruits/refs/heads/main/AbacaxiHubOfc.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "xova hub(chắc vậy)",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/sofziol1fe/Script/refs/heads/main/main.luau"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Teddy hub (lag)",
+    Callback = function()
+	 repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/e86ed284a22672d29e906214e7bbf8b9.lua"))()
+  end
+  })
+  
+  AddButton(Tab5o, {
+     Name = "LeafHub",
+    Callback = function()
+	 repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer
+
+loadstring(game:HttpGet("https://github.com/LeafHubAcademy/LeafHub/raw/refs/heads/main/Leaf.lua"))()
+  end
+  })
+  
+  AddButton(Tab9o, {
+     Name = "bacon hub boss",
+    Callback = function()
+	 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+
+getgenv().team = "Pirates" -- Pirates or Marines
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh129150/hack/refs/heads/main/HopBoss.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Muxus hub",
+    Callback = function()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenAnhKhoaX/AnhKhoa2279/refs/heads/main/Main-BloxFruitsBETA.lua", true))()
+  end
+  })       Image = "http://www.roblox.com/asset/?id=136573518692872",
        Size = {40, 40},
        Color = Color3.fromRGB(0, 255, 255),
        Corner = true,
@@ -110,3 +276,4 @@ local Tab8o = MakeTab({Name = "New script"})
   end
 
   })
+
